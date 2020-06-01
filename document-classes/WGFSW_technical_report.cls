@@ -9,6 +9,7 @@
 \RequirePackage[letterpaper, margin=1.0in, left=1in]{geometry}
 \RequirePackage[normalem]{ulem}
 \RequirePackage{hyperref}
+\RequirePackage{glossaries}
 \RequirePackage{apacite}
 \RequirePackage{setspace}
 \RequirePackage{indentfirst}
