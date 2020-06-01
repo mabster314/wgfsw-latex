@@ -14,6 +14,7 @@
 \RequirePackage{setspace}
 \RequirePackage{indentfirst}
 \RequirePackage{tocloft}
+\RequirePackage{enumitem}
 
 \doublespacing
 
