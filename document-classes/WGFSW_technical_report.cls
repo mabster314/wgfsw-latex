@@ -8,7 +8,7 @@
 \RequirePackage{graphicx}
 \RequirePackage[letterpaper, margin=1.0in, left=1in]{geometry}
 \RequirePackage[normalem]{ulem}
-\RequirePackage{hyperref}
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage[xindy,acronyms,nonumberlist]{glossaries}
 \RequirePackage{apacite}
 \RequirePackage{setspace}
