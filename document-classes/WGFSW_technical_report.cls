@@ -15,9 +15,9 @@
 \RequirePackage{indentfirst}
 \RequirePackage{tocloft}
 \RequirePackage{enumitem}
+\RequirePackage{caption}
 
 \doublespacing
-
 
 % Formatting for headings
 \titleformat*{\section}
@@ -35,6 +35,10 @@
 \renewcommand\thesection{}
 \renewcommand\thesubsection{}
 \renewcommand\thesubsubsection{}
+
+% Formatting for captions
+\newcommand{\source}[1]{\caption*{Source: {#1}} }
+\captionsetup{font={stretch=0.5}}
 
 % Formatting for ToC
 \renewcommand{\cfttoctitlefont}{\hfill \bfseries }
@@ -63,7 +67,7 @@
 \addtolength{\cftfignumwidth}{\mylen} % add the extra space
 
 
-\setlength{\cftfignumwidth}{.1em}
+% \setlength{\cftfignumwidth}{.1em}
 
 % Formatting for LoT
 \renewcommand{\listtablename}{LIST OF TABLES}
@@ -77,4 +81,4 @@
 \addtolength{\cfttabnumwidth}{\mylentab} % add the extra space
 
 
-\setlength{\cfttabnumwidth}{.1em}
+% \setlength{\cfttabnumwidth}{.1em}
