@@ -16,6 +16,7 @@
 \RequirePackage{tocloft}
 \RequirePackage{enumitem}
 \RequirePackage{caption}
+\RequirePackage{xcolor}
 
 \doublespacing
 
