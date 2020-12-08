@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{WGFSW_technical_report}[2020/05/20 A class to meet Webb Guide to the Senior Thesis requirements]
+\ProvidesClass{WGFSW_thesis}[2020/05/20 A class to meet Webb Guide to the Senior Thesis requirements]
 
 \LoadClass[12pt, titlepage]{article}
 
@@ -8,6 +8,7 @@
 \RequirePackage{graphicx}
 \RequirePackage[letterpaper, margin=1.0in, left=1.5in]{geometry}
 \RequirePackage[normalem]{ulem}
+\RequirePackage[draft,nospace]{varioref}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage[xindy,acronyms,nonumberlist]{glossaries}
 \RequirePackage{apacite}
@@ -17,6 +18,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{caption}
 \RequirePackage{xcolor}
+\RequirePackage{cleveref}
 
 \doublespacing
 
