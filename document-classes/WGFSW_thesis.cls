@@ -8,7 +8,7 @@
 \RequirePackage{graphicx}
 \RequirePackage[letterpaper, margin=1.0in, left=1.5in]{geometry}
 \RequirePackage[normalem]{ulem}
-\RequirePackage[draft,nospace]{varioref}
+\RequirePackage[]{varioref}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage[xindy,acronyms,nonumberlist]{glossaries}
 \RequirePackage{apacite}
@@ -18,7 +18,9 @@
 \RequirePackage{enumitem}
 \RequirePackage{caption}
 \RequirePackage{xcolor}
-\RequirePackage{cleveref}
+\RequirePackage[toc,page]{appendix}
+\RequirePackage{listings}
+\RequirePackage{subcaption}
 
 \doublespacing
 
